@@ -37,7 +37,7 @@ raseed_backend/
 
 ```bash
 git clone https://github.com/MubbashirAhmed123/raseed-ai-assistant-server.git
-cd raseed_backend
+cd raseed-ai-assistant-server
 ```
 
 ### 2. Install dependencies
