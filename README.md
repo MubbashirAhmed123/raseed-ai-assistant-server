@@ -1,7 +1,7 @@
 
 # Raseed Backend
 
-An AI-powered assistant backend using **Fastify**, **Google Vertex AI**, and **Google Wallet** APIs. This backend is built with **Node.js**, **TypeScript**, and runs in a lightweight **Docker Alpine** environment.
+An AI-powered assistant backend using **Fastify**, **Google Vertex AI**, and **Google Wallet** APIs. This backend is built with **Fastify**, **TypeScript**, and runs in a lightweight **Docker Alpine** environment.
 
 ---
 
