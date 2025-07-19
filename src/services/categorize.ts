@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import dotenv from 'dotenv';
 import credentials from '../config/credentials.json';
-import { RECEIPT_CATEGORIZATION_PROMPT } from "../contants/prompts";
+import { RECEIPT_CATEGORIZATION_PROMPT } from "../constants/prompts";
 const GEMINI_API_KEY = credentials.GEMINI_API_KEY
 
 dotenv.config();
