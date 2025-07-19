@@ -6,7 +6,7 @@ export interface SimplifiedReceipt {
     total?: number;
 }
 
-export async function extractReceiptDataFromBuffer(buffer: Buffer): Promise<SimplifiedReceipt> {
+export async function extractReceiptDataFromBuffer(buffer: Buffer): Promise<string | SimplifiedReceipt> {
     try {
         const [result] = await visionClient.textDetection({
             image: { content: buffer }
