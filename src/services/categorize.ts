@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({
-    apiKey:'AIzaSyCMWvCoyeXUvp3m7r4XEBMcEDvXVF-1irI'
+    apiKey:process.env.GEMINI_API_KEY
 });
 
 export async function categorize(prompt:string) {
