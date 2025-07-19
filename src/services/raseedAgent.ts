@@ -14,7 +14,7 @@ const model = `${process.env.MODEL}`
 const generativeModel = vertexAI.preview.getGenerativeModel({
   model,
   generationConfig: {
-    maxOutputTokens: 2048,
+    maxOutputTokens: 100,
     temperature: 0.9,
     topP: 1,
   },
